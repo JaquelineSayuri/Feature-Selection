@@ -1,0 +1,5 @@
+proc_data.py realiza o pré-processamento sobre os datasets, sendo possível balancear, normalizar e dividir o dataset em dados de treino e de teste, se for o caso.
+
+original.py treina os classificadores naive bayes, decision tree e/ou SVM com o dataset original, ou seja, sem redução, informando acurácia de treino, de teste, tempo de treinamento, etc.
+
+4_algorithms_AG.py executa, de acordo com a opção escolhida, o best, best(function), final ou final(function), usando um dos classificadores disponíveis (naive bayes, decision tree ou SVM) para reduzir um dataset.
