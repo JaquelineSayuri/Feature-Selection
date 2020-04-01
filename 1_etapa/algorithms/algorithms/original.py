@@ -170,5 +170,5 @@ for i in range(3 * len(clfs)):
 results = pd.DataFrame(results)
 print(results)
 
-results.to_csv('results.csv', header = False, index = False)
+results.to_csv('../results/results.csv', header = False, index = False)
 '''
