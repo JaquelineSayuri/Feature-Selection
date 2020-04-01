@@ -1,0 +1,7 @@
+Os arquivos NB.sh, DT.sh e SVM.sh são scripts contendo os comandos para execução do programa 4_algorithms_AG.py, sendo que cada script corresponde a um classificador escolhido.
+
+formato do comando:
+python <caminho para o programa> <opção de algoritmo> <opção de classificador> <caminho para o arquivo do dataset de treino> <caminho para o arquivo do dataset de teste>
+
+exemplo de comando:
+python ../algorithms/4_algorithms_AG.py 3 1 '../datasets/colon_cancer(train).csv' '../datasets/colon_cancer(test).csv'
