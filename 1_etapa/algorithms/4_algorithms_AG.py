@@ -458,29 +458,20 @@ fitness_options = [1, 3]
 clf = classifier(clf_option)
 
 #pop_sizes = [12, 20, 50]
-#pop_sizes = [20]
-pop_sizes = [12]
+pop_sizes = [20]
 pop_size = int()
-
 n_selected = 3
-
 #mutation_rates = [0.02, 0.05, 0.10]
 mutation_rates = [0.05]
 mutation_rate = float()
-
-#max_stagnant_gen = 30
-max_stagnant_gen = 2
-#n_best_inds = 10
-n_best_inds = 4
-#max_round = 15
-max_round = 3
+max_stagnant_gen = 30
+n_best_inds = 10
+max_round = 15
 att_rates = [1.0, 0.9, 0.8, 0.7, 0.6, 0.5, 0.4, 0.3, 0.2, 0.1]
 n_final_inds = len(att_rates)
+max_stagnant_round = 2
+sampling = 15
 
-#max_stagnant_round = 2
-max_stagnant_round = 1
-#sampling = 15
-sampling = 5
 
 
 
