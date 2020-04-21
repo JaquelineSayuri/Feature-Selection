@@ -402,7 +402,7 @@ clf_option_dict = {
 }
 
 alg_option, clf_option, train_file_name, test_file_name, dataset = set_options()
-voted_options = [2, 3]
+voted_options = [3]
 
 clf = classifier(clf_option)
 
