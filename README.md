@@ -1,2 +1,2 @@
 # Feature-Selection
-Repositório contendo os códigos e datasets utilizados no artigo do BRACIS
+Repository containing the codes and datasets used in the BRACIS article
